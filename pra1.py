@@ -4,11 +4,6 @@ class exception:
     
     def compute(self):
         num1 = int(input("enter the  number"))
-       
-       
-
-       
-
 class ValueTooHigh(exception):
     def __init__(self, num1):
         super().__init__(num1)
